@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { Image, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context'
+import Navbar from './components/Navbar';
 import Homescreen from './screens/Homescreen';
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
       <StatusBar style="auto" />
       
       <Homescreen />
+      <Navbar />
     </SafeAreaView>
   );
 }
