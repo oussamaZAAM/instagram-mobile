@@ -16,8 +16,9 @@ const Homescreen = () => {
           return (
             <Post key={index} post={post} />
           )
-        })}
+        })}  
       </ScrollView>
+      <Navbar />
     </View>
   )
 }

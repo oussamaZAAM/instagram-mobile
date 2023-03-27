@@ -4,7 +4,7 @@ import Octicons from "react-native-vector-icons/Octicons"
 
 const Navbar = () => {
   return (
-    <View className="flex flex-row items-center justify-between fixed bottom-6 w-screen bg-inherit h-[10vh] my-2">
+    <View className="flex flex-row items-center justify-between fixed bottom-8 w-screen bg-white h-[8vh] my-2">
         <View className="mx-4">
             <Octicons name="home" size={30}/>
         </View>
