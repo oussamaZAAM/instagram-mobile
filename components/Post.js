@@ -28,7 +28,7 @@ const Post = () => {
       </View>
 
       {/* Post Image(s) */}
-      <View className="">
+      <View className=""> 
         <FlatList
             data={data}
             keyExtractor={(item) => item.id}
