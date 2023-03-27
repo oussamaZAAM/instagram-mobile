@@ -20,7 +20,7 @@ const Header = () => {
           <View
             style={styles.container}
             className={
-              "absolute -bottom-20 flex flex-col bg-white px-2 rounded-xl items-center duration-300 transition justify-center z-50 " +
+              "-bottom-20 flex flex-col bg-white px-2 rounded-xl items-center duration-300 transition justify-center z-50 " +
               (open ? "scale-100" : "scale-0")
             }
           >
@@ -50,6 +50,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   container: {
+    position: 'absolute',
     boxShadow:
       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
     elevation: 10,
