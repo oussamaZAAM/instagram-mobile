@@ -15,11 +15,24 @@ export const Posts = [
         ]
     },
     {
-        uri: "https://cdn.myanimelist.net/images/characters/8/285150.jpg",
+        uri: [
+            {
+                id: 1,
+                source: "https://cdn.myanimelist.net/images/characters/11/287902.jpg",
+            },
+            {
+                id: 2,
+                source: "https://cdn.myanimelist.net/images/characters/6/241415.jpg",
+            },
+            {
+                id: 3,
+                source: "https://cdn.myanimelist.net/images/characters/16/288705.jpg",
+            }
+        ],
         user_name: Users[1].name,
         user_pic: Users[1].image,
         likes: 562,
-        description: "Check my new friend",
+        description: "Getting ready!",
         comments: [
             {
                 user: 'Lion Ryuu',

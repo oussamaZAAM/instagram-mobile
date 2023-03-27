@@ -42,7 +42,7 @@ const Post = ({ post }) => {
       <View className="">
         {Array.isArray(post.uri) 
         ? <FlatList
-            data={data}
+            data={post.uri}
             keyExtractor={(item) => item.id}
             horizontal
             pagingEnabled
